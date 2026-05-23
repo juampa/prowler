@@ -178,7 +178,7 @@
       "minimatch@>=9 <10": "9.0.7",
       "minimatch@>=10": "10.2.3",
       "minimatch@<4": "3.1.4",
-      "qs": "6.14.2",
+      "qs": "6.15.2",
       "rollup@>=4": "4.59.0",
       "serialize-javascript": "7.0.5"
     }
