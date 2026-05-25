@@ -2,10 +2,10 @@ version = 1
 revision = 3
 requires-python = ">=3.11, <3.13"
 resolution-markers = [
-    "python_full_version >= '3.12' and sys_platform == 'win32'",
     "python_full_version >= '3.12' and sys_platform != 'win32'",
-    "python_full_version < '3.12' and sys_platform == 'win32'",
+    "python_full_version >= '3.12' and sys_platform == 'win32'",
     "python_full_version < '3.12' and sys_platform != 'win32'",
+    "python_full_version < '3.12' and sys_platform == 'win32'",
 ]
 
 [manifest]
@@ -4410,8 +4410,8 @@ wheels = [
 
 [[package]]
 name = "prowler"
-version = "5.27.0"
-source = { git = "https://github.com/prowler-cloud/prowler.git?rev=master#0abbb7fc590eaf7de6ed354dd5a217bca261d2b0" }
+version = "5.29.0"
+source = { git = "https://github.com/prowler-cloud/prowler.git?rev=master#ec3efc94f566fd3a7e3d4dfc0389512efb34ae73" }
 dependencies = [
     { name = "alibabacloud-actiontrail20200706" },
     { name = "alibabacloud-credentials" },
@@ -4484,6 +4484,7 @@ dependencies = [
     { name = "pygithub" },
     { name = "python-dateutil" },
     { name = "pytz" },
+    { name = "scaleway" },
     { name = "schema" },
     { name = "shodan" },
     { name = "slack-sdk" },
